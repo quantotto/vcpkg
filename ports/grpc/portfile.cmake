@@ -17,6 +17,7 @@ vcpkg_from_github(
         00009-use-system-upb.patch
         00010-fix-trace-loop.patch
         00011-size-conversion.patch
+        00012-port-platform-windows.patch
 )
 
 if(VCPKG_TARGET_IS_UWP OR VCPKG_TARGET_ARCHITECTURE STREQUAL "arm" OR VCPKG_TARGET_ARCHITECTURE STREQUAL "arm64")
